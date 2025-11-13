@@ -1,9 +1,5 @@
-# de2_project# AVR Portable Environmental Logger
+#AVR Portable Environmental Logger
 
-**Author:** Based on Tomas Fryza templates, 2025  
-**License:** MIT  
-
----
 
 ## 📋 Popis
 
