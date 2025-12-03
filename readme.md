@@ -53,9 +53,9 @@ Projekt je napísaný v **C (AVR-GCC)** a využíva nízkoúrovňové knižnice 
 | Súbor | Účel |
 | :--- | :--- |
 | `main.c` | Hlavný program (Menu, Logika loggera, Výpočty BMP180, EEPROM) |
-| `twi.h` / `twi.c` | Knižnica pre I²C/TWI komunikáciu |
+| `twi.h` / `twi.c` | Knižnica pre I²C/TWI komunikáciu (Avr Labs Tomas Fryza) |
 | `uart.h` / `uart.c` | Knižnica pre UART komunikáciu (Peter Fleury) |
-| `timer.h` | Makrá pre konfiguráciu Timer1 |
+| `timer.h` | Makrá pre konfiguráciu Timer1 (Avr Labs Tomas Fryza) |
 
 ---
 
@@ -128,8 +128,8 @@ $$\text{Kapacita} = \frac{1024 \text{ B}}{7 \text{ B}} \approx \mathbf{146} \tex
 * **Celkový čas záznamu:**
     * *Pri testovacom intervale 5 s:*
       $146 \times 5 \text{ s} \approx 730 \text{ s} \approx \mathbf{12 \text{ min}}$
-    * *Pri reálnom intervale 1 minúta:*
-      $146 \times 60 \text{ s} = 8760 \text{ s} \approx \mathbf{2 \text{ hod } 26 \text{ min}}$
+    * *Pri reálnom intervale ako napríklad 5 minút:*
+      $146 \times 300 \text{ s} = 43800 \text{ s} \approx \mathbf{12 \text{ hod } 10 \text{ min}}$
 
 ---
 
@@ -137,5 +137,19 @@ $$\text{Kapacita} = \frac{1024 \text{ B}}{7 \text{ B}} \approx \mathbf{146} \tex
 
 * **Autori:** Lukáš Hrobák, Richard Tomanička, Jan Trojak
 * **Inštitúcia:** VUT Brno, FEKT
+
+---
+
+## Zdroje a Použitá literatúra
+
+### Datasheets
+* **BMP180:** [Bosch Sensortec BST-BMP180-DS000](https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf)  
+* **DHT12:** [DHT12 Manual](https://robototehnika.ru/file/DHT12.pdf)
+* **DS3231:** [DS32131 Manual](https://www.analog.com/media/en/technical-documentation/data-sheets/ds3231.pdf)
+
+### Externé knižnice a nástroje
+* **UART Library:** [Peter Fleury AVR Software](http://jump.to/fleury)
+* **Avr Labs Tomas Fryza:**  [AVR course at Brno University of Technology](https://github.com/tomas-fryza/avr-labs/)
+
 
 *(Projekt vznikol v rámci predmetu Digitálna elektronika 2)*
