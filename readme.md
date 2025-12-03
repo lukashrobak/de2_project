@@ -24,7 +24,7 @@ Program funguje ako **interaktívny terminál**, ktorý cez sériový port (UART
 
 ### Schéma zapojenia (I²C zbernica)
 
-Všetky senzory sú pripojené paralelne na I²C zbernicu. Senzor BMP180 vyžaduje napájanie 3.3V (ak modul nemá vlastný regulátor).
+Všetky senzory sú pripojené paralelne na I²C zbernicu. Senzor BMP180 vyžaduje napájanie 3.3V.
 
 ![Schéma zapojenia](./schema_zapojenia.png)
 
