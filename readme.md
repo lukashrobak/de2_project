@@ -106,8 +106,6 @@ Volba:
 
 ### Ukážka fungovania
 
-### Ukážka fungovania
-
 Kliknite na obrázok nižšie pre spustenie videa na YouTube:
 
 [![Ukážka Loggera](https://img.youtube.com/vi/ielnsvkVewc/0.jpg)](https://youtu.be/ielnsvkVewc)
