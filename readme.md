@@ -106,10 +106,12 @@ Volba:
 
 ### Ukážka fungovania
 
-🎥 **[Kliknite sem pre spustenie video ukážky (MP4)](./video_ukazka.mp4)**
+### Ukážka fungovania
 
+Kliknite na obrázok nižšie pre spustenie videa na YouTube:
+
+[![Ukážka Loggera](https://img.youtube.com/vi/ielnsvkVewc/0.jpg)](https://youtu.be/ielnsvkVewc)
 ---
-
 ## Technické parametre
 
 * **Úložisko:** Interná EEPROM (1024 Bajtov)
